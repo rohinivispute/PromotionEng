@@ -7,8 +7,7 @@ import org.springframework.stereotype.Component;
 public class PromotionValues {
 
 	@Value("${promo.price.A}")
-	  private int promo_price_A;
-	 
+	  private int promo_price_A;	 
 	@Value("${promo.unit.A}")
 	  private int promo_unit_A;
 	  @Value("${promo.price.B}")
